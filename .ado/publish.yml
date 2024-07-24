@@ -178,11 +178,11 @@ jobs:
         displayName: CodeSign Binaries
         inputs:
           ConnectedServiceName: ESRP-JsHost
-          AppRegistrationClientId: d40f4525-33c0-4b19-8791-9d25a15c6b64
-          AppRegistrationTenantId: 72f988bf-86f1-41af-91ab-2d7cd011db47
+          AppRegistrationClientId: 'd40f4525-33c0-4b19-8791-9d25a15c6b64'
+          AppRegistrationTenantId: '72f988bf-86f1-41af-91ab-2d7cd011db47'
           AuthAKVName: jshost-esrp-keyvault
-          AuthCertName: esrp-authentication-certificate
-          AuthSignCertName: esrp-request-signing-certificate
+          AuthCertName: esrp-jshost-authentication-certificate
+          AuthSignCertName: esrp-jshost-signing-certificate
           ServiceEndpointUrl: 'https://api.esrp.microsoft.com/api/v2'
           FolderPath: $(Build.SourcesDirectory)/out/bin/Release
           # Recursively finds files matching these patterns:
