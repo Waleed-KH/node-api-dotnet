@@ -182,7 +182,7 @@ jobs:
           AppRegistrationTenantId: '72f988bf-86f1-41af-91ab-2d7cd011db47'
           AuthAKVName: jshost-esrp-keyvault
           AuthCertName: esrp-jshost-auth-certificate
-          AuthSignCertName: Microsoft-Shared-Jshost-ESRP
+          AuthSignCertName: Microsoft-Shared-Jshost-ESRP-2023-Oct
           ServiceEndpointUrl: 'https://api.esrp.microsoft.com/api/v2'
           FolderPath: $(Build.SourcesDirectory)/out/bin/Release
           # Recursively finds files matching these patterns:
